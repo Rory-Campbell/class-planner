@@ -1,0 +1,13 @@
+
+
+.station-form{
+    text-align: left;
+}
+
+.station-form .form-control{
+    width: 8em;
+}
+
+.station-form label{
+    font-weight: 700;
+}

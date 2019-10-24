@@ -1,0 +1,72 @@
+body {
+    background-color: #333333;
+    color: #359EB4;
+ }
+
+.MuiSelect-root{
+    color:#359EB4;
+}
+ 
+.classPlan-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    
+}
+
+.classPlan-title{
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+}
+
+.classPlan-time-display{
+    grid-row-start: 2;
+    grid-column-start:3;
+    align-self: start;
+    margin-top:0;
+
+}
+
+
+.classPlan-time-title{
+    align-self: start;
+    margin-top: 0;
+    grid-row-start:2;
+    grid-column-start:2;
+    grid-column-end: 3;
+}
+.classTime{
+    align-self: start;
+    grid-row-start:2;
+    grid-column-start:2;
+    grid-column-end: 3;
+    color: #359EB4;
+    text-align: left;
+    
+    
+}
+
+#classLength{
+    width: 8em;
+}
+
+.classTime label{
+    font-weight: 700;
+}
+
+
+.classPlan-station-form{
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    
+    
+
+}
+
+#select-classLength{
+    color:#359EB4;
+    font-size: 20px;
+}
+

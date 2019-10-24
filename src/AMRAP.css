@@ -1,0 +1,37 @@
+.AMRAP-container{
+    margin-top: 1em;
+    padding-bottom: 1em;
+    border: solid .5px #1A74A3;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "header header header header"
+                        ". set-time set-time  ."
+                        ". exercise exercise ."
+                        ". new-exercise new-exercise ."
+                        
+}
+
+.AMRAP-title{
+    grid-area: header;
+}
+
+.AMRAP-timer{
+  grid-area: set-time;
+}
+
+.AMRAP-new-form{
+    margin-top: 10px; 
+    grid-area: new-exercise;
+}
+
+.AMRAP-exercise-display{
+    grid-area: exercise;
+}
+
+.AMRAP-exercise-display li{
+    margin-top: 1em;
+    text-align: center;
+    font-weight: 500;
+    
+}
